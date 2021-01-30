@@ -8,7 +8,6 @@ int main(){
         for(int j=0; j<s.length()+1; j++){
             if(i==0 || j==0){
                 arr[i][j]=0;
-                continue;    
             }
             else if(s[j-1]==s1[i-1]){
                 arr[i][j] = arr[i-1][j-1] + 1;
