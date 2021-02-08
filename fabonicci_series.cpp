@@ -12,6 +12,4 @@ l=m;
 
 }
 printf("sum= %d\n",m);
-
-	
 }
